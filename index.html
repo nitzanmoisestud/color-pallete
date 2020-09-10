@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="pallete.css" />
+    <title>Color Pallete</title>
+  </head>
+
+  <body>
+    <header id="actions">
+      <div class="harmonies">
+        <label for="cars">Choose Harmony:</label>
+
+        <select name="harmonies" id="harmonies">
+          <option value="Analogous">Analogous</option>
+          <option value="Monochromatic">Monochromatic</option>
+          <option value="Triad">Triad</option>
+          <option value="Complementary">Complementary</option>
+          <option value="Compound">Compound</option>
+          <option value="Shades">Shades</option>
+        </select>
+      </div>
+      <div class="color-wraper">
+        <label for="color">Select a Color</label>
+        <input value="#b85151" id="color-input" name="color" type="color" />
+      </div>
+    </header>
+
+    <div class="pallete">
+      <div class="board" id="board1">
+        <div class="color-board"></div>
+        <div class="colors">
+          <p>HEX:<span id="hex"></span></p>
+          <p>RGB:<span id="rgb"></span></p>
+          <p>HSL:<span id="hsl"></span></p>
+        </div>
+      </div>
+      <div class="board" id="board2">
+        <div class="color-board"></div>
+        <div class="colors">
+          <p>HEX:<span id="hex"></span></p>
+          <p>RGB:<span id="rgb"></span></p>
+          <p>HSL:<span id="hsl"></span></p>
+        </div>
+      </div>
+      <div class="board" id="board3">
+        <div class="color-board"></div>
+        <div class="colors">
+          <p>HEX:<span id="hex"></span></p>
+          <p>RGB:<span id="rgb"></span></p>
+          <p>HSL:<span id="hsl"></span></p>
+        </div>
+      </div>
+      <div class="board" id="board4">
+        <div class="color-board"></div>
+        <div class="colors">
+          <p>HEX:<span id="hex"></span></p>
+          <p>RGB:<span id="rgb"></span></p>
+          <p>HSL:<span id="hsl"></span></p>
+        </div>
+      </div>
+      <div class="board" id="board5">
+        <div class="color-board"></div>
+        <div class="colors">
+          <p>HEX:<span id="hex"></span></p>
+          <p>RGB:<span id="rgb"></span></p>
+          <p>HSL:<span id="hsl"></span></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="pallete.js"></script>
+  </body>
+</html>
